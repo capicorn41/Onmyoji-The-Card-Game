@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Open+Sans&family=Roboto&family=Roboto+Slab:wght@400;700&display=swap');
+body
+{
+	font-family:'Roboto', Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size:16px;
+	background-color: #A698C9;
+	line-height: 1.5rem
+}
+* {box-sizing: border-box;
+scroll-behavior: smooth}
+.container {width: 80%; margin: auto;
+align-items: flex-end; justify-content: center}
+.row {display: flex}
+.col-1 {width: 8.33%}
+.col-2 {width: 16.66%}
+.col-3 {width: 25%}
+.col-4 {width: 33.33%}
+.col-5 {width: 41.66%}
+.col-6 {width: 50%}
+.col-7 {width: 58.33%}
+.col-8 {width: 66.66%}
+.col-9 {width: 75%}
+.col-10 { width: 83.33%}
+.col-11 {width: 91.66%}
+.col-12 {width: 100%}
+[class*="col-"]/*{
+border: 1px solid red;
+padding: 15px}*/
+
+.bg-primary {background-color:#222} 
+.bg-footer {background:#222}
+.img-100 {width: 100%;height: auto} 
+.text-center{ text-align: center}
+.text-right{ text-align: right}
+.text-left{text-align: left}
+.row-boder{ border: 1px solid white;
+border-bottom: none}
+.center {padding: 70px 0;}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-family: "Roboto", "Inter",Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+h1{ font-size: 60px}
+h2{ font-size: 35px}
+h3{ font-size: 28px}
+h4{ font-size: 20px}
+p{
+		 color: #fff;
+		font-family: "Montserrat", "Inter",Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.align-items-top{ align-items: flex-start}
+.align-items-center{ align-items: center}
+.align-items-bottom{ align-items: flex-end}
+.justify-center { justify-content: center}
+.justify-left{ justify-content: flex-start}
+.justify-right{ justify-content: flex-end}
+.justify-between{ justify-content: space-between}
+.justify-around{ justify-content:space-around}
+
+
